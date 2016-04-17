@@ -63,6 +63,7 @@ public class DramaMap {
         frame.add(new MyGlassPane(group));
         frame.repaint();
         frame.setVisible(true);
+        frame.setExtendedState(frame.getExtendedState()|JFrame.MAXIMIZED_BOTH);
 	}
 	
 	
